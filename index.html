@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="body">
+        <div class="title">
+            <input type="text" id="password"></input>
+        </div>
+        <div class="button-holder">
+            <button class = "regenPass" onclick="genPassword()">Regenerate Password</button>
+            <hr>
+            <button class = "copyPass">Copy Password</button>
+        </div>
+    </div>
+    <div id="my-popup">
+        <span id="icon-text">Password Copied</span>
+    </div>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
